@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:Work Sans;
+}
+/* common style class */
+.display-flex{
+    display: flex;
+}
+.primary-dark-1{
+  color: #131313;
+}
+.primary-dark-2{
+    color:#424242;
+}
+.primary-dark-3{
+    color: #727272;
+}
+.total-prim-bg{
+    background: rgba(255, 144, 14, 0.1);
+}
+.prim-btn{
+    background-color: #FF900E;
+    color: white;
+    font-size: 1.2rem;
+    padding: 16px 20px;
+    border-radius: 8px;
+    border: none;
+    margin-top: 25px;
+}
+/* nav style */
+nav li{
+    list-style: none;
+    margin-right: 30px;
+    margin-top: 15px;
+}
+nav a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+}
+nav h1{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+.navbar{
+   align-items: center;
+}
+.navbar,.banner{
+    max-width: 1140px;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+/* banner style section */
+.banner-content{
+    max-width: 670px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 45px;
+}
+.banner-head{
+    font-size: 3rem;
+    font-weight: 700;
+}
+.dris-head{
+    font-size: 1rem;
+    font-weight: 400;
+}
+.img-banner img{
+    max-width: 100%;
+}
