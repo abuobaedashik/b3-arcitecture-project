@@ -32,6 +32,19 @@ body{
     border: none;
     margin-top: 25px;
 }
+main,footer{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+main > section{
+    margin-top: 120px;
+}
+.common-title{
+   font-size: 2.5rem;
+   font-weight: 700; 
+}
+
+  
 /* nav style */
 nav li{
     list-style: none;
@@ -50,7 +63,7 @@ nav h1{
 .navbar{
    align-items: center;
 }
-.navbar,.banner{
+.navbar,.banner,#Fact{
     max-width: 1140px;
     margin: 0 auto;
     justify-content: space-between;
@@ -74,3 +87,106 @@ nav h1{
 .img-banner img{
     max-width: 100%;
 }
+/*main start team style section  */
+ .teams{
+    align-items: center;
+ }
+ .image-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 18px;
+ }
+ .fiture-container{
+    margin-left: 80px;
+    max-width: 500px;
+ }
+ #feature{
+    font-size: 2.5rem;
+    font-weight: 700; 
+    color:#FF900E;
+ }
+ #of-our{
+   color:#131313;
+   font-size: 2.5rem;
+   font-weight: 700;
+ }
+#qc{
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #727272;
+ }
+ .fiture-discription{
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 30px;
+    color: rgb(114, 114, 114);
+    font-weight: 400;
+    text-align: left;
+ }
+ /* favorite  facts*/
+ .fact-container{
+     border:1px solid #FF900E; 
+     border-radius: 5px;
+     height: 190px;
+     width: 190px;
+     padding: 20px;
+     border-radius: 10px;
+     align-items: center;
+     justify-content: center;
+ }
+ .facts-container-items{
+  display: flex;
+  gap:180px;
+  margin: 50px auto;
+ }
+ .fact-title{
+    color: rgb(66, 66, 66);
+    font-size: 2.5rem;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom:10px;
+    margin-top: 15px;
+ }
+ .disct{
+    color: rgb(114, 114, 114);
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+ }
+ .fact-container{
+   align-items: center;
+   justify-content: center;
+ }
+ .contant-f{
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+ }
+ .sp-dis{
+    text-align: center;
+ }
+ .sponspors{
+    margin-bottom: 40px;
+ }
+/* sponsor section */
+.icon-section{
+   display: flex;
+   gap: 80px;
+}
+.foot-text{
+    border-radius: 8px;
+    background: rgb(255, 244, 231);
+    color: rgb(66, 66, 66);
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    padding: 20px;
+}
+footer{
+    margin-top: 100px;
+    margin-bottom: 80px;
+    border-radius: 8px;
+    background: rgb(255, 244, 231);
+}
+
