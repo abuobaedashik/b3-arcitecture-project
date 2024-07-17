@@ -173,6 +173,9 @@ nav h1{
    display: flex;
    gap: 80px;
 }
+.icon img{
+    filter: grayscale(100%);
+}
 .foot-text{
     border-radius: 8px;
     background: rgb(255, 244, 231);
